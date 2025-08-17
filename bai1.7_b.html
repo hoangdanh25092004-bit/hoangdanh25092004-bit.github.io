@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* đảm bảo bảng có thể cuộn ngang khi dài quá */
+      .table-responsive {
+        overflow-x: auto;
+      }
+      table td {
+        white-space: nowrap; /* giữ nội dung trên 1 dòng để có thanh cuộn */
+      }
+      /* nếu muốn cột ghi chú vẫn xuống dòng thì bỏ white-space: nowrap */
+    </style>
+  </head>
+
+  <body>
+    <main class="p-3">
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped align-middle">
+          <thead class="table-primary">
+            <tr>
+              <th scope="col">STT</th>
+              <th scope="col">Họ</th>
+              <th scope="col">Tên</th>
+              <th scope="col">Email</th>
+              <th scope="col">Ghi chú</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row">1</td>
+              <td>Nguyễn</td>
+              <td>Mai Lan</td>
+              <td>nguyenmailan@gmail.com</td>
+              <td>
+                sinh viên năm 3 ngành công nghệ thông tin đại học công nghiệp Việt Trì, Phú Thọ... sinh viên năm 3 ngành công nghệ thông tin đại học công nghiệp Việt Trì, Phú Thọ... sinh viên năm 3 ngành công nghệ thông tin đại học công nghiệp Việt Trì, Phú Thọ... sinh viên năm 3 ngành công nghệ thông tin đại học công nghiệp Việt Trì, Phú Thọ...
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">2</td>
+              <td>Trần</td>
+              <td>Thị Hồng</td>
+              <td>tranthihong@gmail.com</td>
+              <td>sinh viên năm 2 ngành quản trị kinh doanh</td>
+            </tr>
+            <tr>
+              <td scope="row">3</td>
+              <td>Nguyễn</td>
+              <td>Văn A</td>
+              <td>nguyenvana@gmail.com</td>
+              <td>sinh viên năm 1 ngành kỹ thuật phần mềm</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
